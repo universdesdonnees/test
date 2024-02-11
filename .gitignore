@@ -1,0 +1,13 @@
+/.quarto/
+/.vscode/
+/_site/
+
+# Ignorer tous les fichiers .Rmd
+*.Rmd
+*.tex
+*.csv
+
+# Ignorer le dossier Images, ressources
+ressources/
+resultats/
+Cours6_files

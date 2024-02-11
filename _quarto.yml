@@ -1,0 +1,103 @@
+project:
+  type: website
+
+website:
+  title: "MCL's Classroom Corner"
+  image: images/MCL_code.png
+  favicon: images/MCL_code.png
+  twitter-card:
+    site: "@cmenyssa"
+  open-graph: true
+  site-url: https://realworlddatascience.net/
+  repo-url: https://github.com/realworlddatascience/realworlddatascience.github.io
+  repo-actions: [edit, issue]
+  # If you are forking our repo to develop content -- whether for Real World Data Science 
+  # or your own purposes -- please disable our Google Analytics tag during development.
+  # If building your own site, replace our GA tag with your own GA tag before deployment.
+  # This will prevent your activity being tracked and counted in our analytics dashboard.
+  # Thank you!
+  # google-analytics: "G-1TTWB7YTR6"
+  navbar:
+    toggle-position: right
+    background: "#fff"
+    logo: images/MCL_code.png
+    logo-alt: "Ményssa Cherifa-Luron Classroom Corner"
+    title: false
+    collapse-below: lg
+    right:
+      - essentiels/index.qmd
+      - ideas/index.qmd
+      - careers/index.qmd
+      - viewpoints/index.qmd
+      - text: "À propos"
+        href: about.qmd
+  sidebar: 
+    - title: "About us"
+      contents:
+        - about.qmd
+        - viewpoints/editors-blog/posts/2022/10/18/meet-the-team.qmd
+        - rwds-partners.qmd
+        - contact.qmd
+        - ts-and-cs.qmd
+    - title: "Call for contributions"
+      contents:
+        - contributor-docs/call-for-contributions.qmd
+        - contributor-docs/essentiels.qmd
+        - contributor-docs/explainers.qmd
+        - contributor-docs/exercises.qmd
+        - contributor-docs/datasets.qmd
+        - contributor-docs/training-guides.qmd
+        - contributor-docs/recommender.qmd
+        - contributor-docs/datasciencebites.qmd
+        - contributor-docs/contributor-guidelines.qmd
+        - contributor-docs/style-guide.qmd
+    - title: "Careers"
+      contents:
+        - careers/index.qmd
+        - careers/career-profiles/index.qmd
+    - title: "Ideas"
+      contents:
+        - ideas/index.qmd
+        - ideas/tutorials/index.qmd
+        - ideas/datasciencebites/index.qmd
+    - title: "Viewpoints"
+      contents: 
+        - viewpoints/index.qmd
+        - viewpoints/editors-blog/index.qmd
+        - viewpoints/interviews/index.qmd
+        - href: viewpoints/newsletter/index.qmd
+          text: Newsletter
+
+  page-navigation: true
+
+  back-to-top-navigation: true
+
+  page-footer:
+    background: "#000000"
+    left: |
+      Copyright &copy; 2024 [Ményssa Cherifa-Luron ❤️](https://mcherifaluron.com/)
+    center:
+      - href: https://github.com/universdesdonnees
+        icon: github
+        aria-label: GitHub
+      - href: https://www.linkedin.com/in/menyssacherifaluron
+        icon: linkedin
+        aria-label: LinkedIn
+      - href: https://twitter.com/cmenyssa
+        icon: twitter-x
+        aria-label: Twitter/X
+    right: |
+      [Politique de confidentialité et CGV](/ts-and-cs.qmd)
+
+format:
+  html:
+    theme: [lux, rwds.scss]
+    css: rwds.css
+    toc: true
+    grid:
+      sidebar-width: 0px
+      body-width: 1000px
+      margin-width: 250px
+
+execute: 
+  freeze: auto

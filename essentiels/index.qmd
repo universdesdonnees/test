@@ -1,0 +1,24 @@
+---
+pagetitle: Les Essentiels 
+title: Les Essentiels | Conquérir les Fondations
+subtitle: Découvrez les bases de R, Python, SQL, Maths et bien plus pour maîtriser les fondamentaux de la data science
+search: false
+repo-actions: false
+listing:
+  contents: 
+  - cours
+  - "!index.qmd"
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  page-size: 30
+  feed: true
+---
+**Démarrez votre parcours en data science ici !**
+
+Vous trouverez tous les cours d'introduction indispensables pour démarrer votre aventure dans le monde de la data science. Que vous souhaitiez apprendre R, Python, SQL, les mathématiques, Git, Linux, Bash ou les statistiques algorithmiques, vous êtes au bon endroit. 
+
+
+*Pour des idées fraîches ou pour contribuer à enrichir "Les Essentiels", n'hésitez pas à consulter mon [forum]().*

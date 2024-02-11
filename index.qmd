@@ -1,0 +1,300 @@
+---
+pagetitle: "MCL's Classroom Corner"
+page-layout: custom
+section-divs: false
+editor: source
+sidebar: false
+search: false
+repo-actions: false
+description: | 
+   Que vous soyez étudiant ou professionnel, vous trouverez ici les clés pour maîtriser R, SQL et Python, et pour transformer vos compétences en histoires de succès. Préparez-vous à devenir un acteur clé de l'ère numérique.
+image: images/MCL_code.png
+listing:
+  - id: latest-content
+    contents: 
+    - /essentiels
+    - /ideas
+    - /careers
+    - /viewpoints
+    - "!index.qmd"
+    - "!llms-whitepaper-response.qmd"
+    sort: "date desc"
+    type: grid
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    max-items: 3
+    feed: false
+
+  - id: essentiels
+    contents: 
+    - /essentiels
+    - "!index.qmd"
+    sort: "date desc"
+    type: grid
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    max-items: 3
+    feed: false
+
+  # - id: ideas
+  #   contents: 
+  #   - /ideas
+  #   - "!index.qmd"
+  #   - "!dsb-live.qmd"
+  #   sort: "date desc"
+  #   type: grid
+  #   categories: false
+  #   sort-ui: false
+  #   filter-ui: false
+  #   max-items: 3
+  #   feed: false
+
+  # - id: careers
+  #   contents: 
+  #   - /careers
+  #   - "!index.qmd"
+  #   sort: "date desc"
+  #   type: grid
+  #   categories: false
+  #   sort-ui: false
+  #   filter-ui: false
+  #   max-items: 3
+  #   feed: false
+
+  # - id: viewpoints
+  #   contents: 
+  #   - /viewpoints
+  #   - "!index.qmd"
+  #   - "!census-bureau.qmd"
+  #   - "!cherry-blossom.qmd"
+  #   - "!gen-ai-framework.qmd"
+  #   - "!llms-whitepaper-response.qmd"
+  #   sort: "date desc"
+  #   type: grid
+  #   categories: false
+  #   sort-ui: false
+  #   filter-ui: false
+  #   max-items: 3
+  #   feed: false
+
+  # - id: editors-blog
+  #   contents: 
+  #   - /viewpoints/editors-blog
+  #   - "!index.qmd"
+  #   sort: "date desc"
+  #   type: grid
+  #   categories: false
+  #   sort-ui: false
+  #   filter-ui: false
+  #   max-items: 3
+  #   feed: false
+
+  # - id: datasciencebites
+  #   contents: 
+  #   - /ideas/datasciencebites
+  #   - "!index.qmd"
+  #   sort: "date desc"
+  #   type: grid
+  #   categories: false
+  #   sort-ui: false
+  #   filter-ui: false
+  #   max-items: 3
+  #   feed: false
+
+  # - id: interviews
+  #   contents: 
+  #   - /viewpoints/interviews
+  #   - "!index.qmd"
+  #   - "!politics-of-modelling.qmd"
+  #   sort: "date desc"
+  #   type: grid
+  #   categories: false
+  #   sort-ui: false
+  #   filter-ui: false
+  #   max-items: 3
+  #   feed: false
+
+  # - id: career-profiles
+  #   contents: 
+  #   - /careers/career-profiles
+  #   - "!index.qmd"
+  #   sort: "date desc"
+  #   type: grid
+  #   categories: false
+  #   sort-ui: false
+  #   filter-ui: false
+  #   max-items: 3
+  #   feed: false
+
+toc: false
+---
+::: {.content-container}
+::: {.top-story .purple-background}
+<a href="/viewpoints/editors-blog/posts/2024/02/08/llms-whitepaper-response.qmd">
+
+::: grid
+::: {.g-col-12 .g-col-lg-4 .top-story-text}
+## £10m for UK regulators to 'jumpstart' AI capabilities, as government commits to white paper approach
+It's been a busy seven days for AI news in the UK as two major government reports were published, millions of pounds of new investments were announced, and warnings rang out of the risk of 'regulatory capture.' Here are some key takeaways.    
+:::
+::: {.g-col-12 .g-col-lg-8 .top-story-img}
+![](viewpoints/editors-blog/posts/2024/02/08/images/parliament-and-thames.png)
+:::
+:::
+
+</a>
+
+:::
+:::
+
+::: {.header-text} 
+::: {.content-container}
+::: {.header-block}
+Welcome to **Real World Data Science**, a new project from the [Royal Statistical Society](https://rss.org.uk/), in partnership with the [American Statistical Association](https://www.amstat.org/). We bring together data science students, practitioners, leaders, and educators to share knowledge, learn from, and be inspired by real-world applications of data science.
+:::
+:::
+:::
+
+::: {.content-container}
+::: {.listing-block}
+<a href="latest-content.qmd">
+
+## Latest content 
+</a>
+
+::: {#latest-content}
+:::
+
+:::
+:::
+
+::: {.pullout-text}
+::: {.pullout-container}
+::: {.pullout-block .black-background}
+![](images/quote-purple.png){width="100px"}
+
+## We have changed the culture, our techniques, and our data. What we have now are appropriate methodologies to answer appropriate questions. Do we still use qualitative data? A hundred percent, when it is necessary to do so. Do we still use surveys? Yes, we’ve got some of the best surveys in the world. But equally, we also use digital data, administrative data, and we use very modern techniques of analysing those data.
+Professor Sir Ian Diamond, UK national statistician
+
+::: {.button}
+[Read the interview](viewpoints/interviews/posts/2023/12/15/ian-diamond.qmd)
+:::
+
+:::
+:::
+:::
+
+::: {.content-container}
+::: {.listing-block}
+<a href="viewpoints/index.qmd">
+
+## Viewpoints 
+</a>
+
+::: {#viewpoints}
+:::
+
+:::
+:::
+
+::: {.content-container}
+::: {.listing-block}
+<a href="essentiels/index.qmd">
+
+## Case Studies
+</a> 
+
+::: {#essentiels}
+:::
+
+:::
+:::
+
+::: {.pullout-text}
+::: {.pullout-container}
+::: {.pullout-block .black-background}
+![](images/quote-purple.png){width="100px"}
+
+## Data duplication is a ubiquitous problem affecting data quality. Organisations often have multiple records that refer to the same entity but no unique identifier that ties these entities together. Data entry errors and other issues mean that variations usually exist, so the records belonging to a single entity aren’t necessarily identical.
+Robin Linacre describes the problem that inspired 'Splink'
+
+::: {.button}
+[Read the case study](essentiels/posts/2023/11/22/splink.html)
+:::
+
+:::
+:::
+:::
+
+::: {.content-container}
+::: {.listing-block}
+<a href="ideas/index.qmd">
+
+## Ideas
+</a> 
+
+::: {#ideas}
+:::
+
+:::
+:::
+
+::: {.content-container}
+::: {.listing-block}
+<a href="careers/index.qmd">
+
+## Careers 
+</a>
+
+::: {#careers}
+:::
+
+:::
+:::
+
+::: {.footer-text}
+::: {.footer-container .black-background}
+::: {.footer-block}
+::: grid
+
+
+::: {.g-col-12 .g-col-md-2}
+### Published by
+[![](images/rss-footer-new.png){fig-align="left"}](https://rss.org.uk/)
+:::
+::: {.g-col-12 .g-col-md-2}
+### Our partners
+[![](images/asa-footer-new.png){fig-align="left"}](https://www.amstat.org/)
+:::
+::: {.g-col-12 .g-col-md-2}
+### With support from 
+[![](images/ati-footer-new.png){fig-align="left"}](https://www.turing.ac.uk/)
+:::
+::: {.g-col-12 .g-col-md-2}
+:::
+::: {.g-col-12 .g-col-md-2}
+### About us
+[Our aims](about-rwds.qmd)\
+[Our team](/viewpoints/editors-blog/posts/2022/10/18/meet-the-team.qmd)\
+[Partners and funders](rwds-partners.qmd)\
+[Contact us](contact.qmd)
+:::
+::: {.g-col-12 .g-col-md-2}
+### Contribute
+[Call for contributions](/contributor-docs/call-for-contributions.qmd)\
+[Contributor guidelines](/contributor-docs/contributor-guidelines.qmd)\
+[Style guide](/contributor-docs/style-guide.qmd)
+:::
+
+
+<!-- ::: {.g-col-12 .g-col-md-12}
+### Our partners
+logos to go here
+::: -->
+
+:::
+:::
+:::
+:::
